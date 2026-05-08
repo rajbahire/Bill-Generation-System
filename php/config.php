@@ -1,0 +1,15 @@
+<?php
+
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "college_bill_system";
+
+$conn = mysqli_connect($host, $user, $password, $database);
+
+if(!$conn)
+{
+    die("Connection Failed: " . mysqli_connect_error());
+}
+
+?>

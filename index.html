@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>College Bill System</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="header">
+
+    <div class="logo-section">
+
+        <img src="assets/image.png"
+             alt="logo">
+
+        <span>
+
+            Government College of Engineering, Aurangabad
+
+        </span>
+
+    </div>
+
+</div>
+
+<!-- Main Content -->
+<div class="main">
+
+    <h1>
+
+        College Bill Generation System
+
+    </h1>
+
+    <p class="subtitle">
+
+        Select your role to continue
+
+    </p>
+
+    <div class="cards">
+
+        <!-- Teacher -->
+        <div class="card teacher active"
+             onclick="goToTeacher()">
+
+            <div class="icon">🎓</div>
+
+            <h2>Teacher</h2>
+
+            <p>
+
+                Manage lectures,
+                generate bills,
+                and track payment status
+
+            </p>
+
+        </div>
+
+        <!-- HOD -->
+        <div class="card hod"
+             onclick="goToHOD()">
+
+            <div class="icon">⚙️</div>
+
+            <h2>HOD</h2>
+
+            <p>
+
+                Review bills,
+                manage teachers,
+                and approve payments
+
+            </p>
+
+        </div>
+
+        <!-- Student -->
+        <div class="card student"
+             onclick="goToStudent()">
+
+            <div class="icon">💼</div>
+
+            <h2>Earn & Learn</h2>
+
+            <p>
+
+                Submit work hours,
+                generate bills,
+                and track earnings
+
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+<script>
+
+function goToTeacher()
+{
+    window.location.href =
+    "teacher/teacher.php";
+}
+
+function goToHOD()
+{
+    window.location.href =
+    "hod/hod.php";
+}
+
+function goToStudent()
+{
+    window.location.href =
+    "student/student.php";
+}
+
+</script>
+
+</body>
+
+</html>

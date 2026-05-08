@@ -1,0 +1,32 @@
+/* Sidebar Nav Items */
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #64748b;
+    transition: all 0.2s;
+}
+
+.nav-item:hover {
+    background-color: #f8fafc;
+}
+
+.nav-item.active {
+    background-color: #eff6ff;
+    color: #2563eb;
+}
+
+/* Row Hover Effect */
+.request-row {
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.request-row:hover {
+    background-color: #ffffff;
+    transform: translateX(5px);
+    cursor: pointer;
+}
