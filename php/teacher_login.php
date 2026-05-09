@@ -30,7 +30,7 @@ if(mysqli_num_rows($result) == 1)
 
 $_SESSION['error'] = "Invalid Email or Password";
 
-header("Location: ../teacher/portal.php");
+header("Location: ../teacher/teacher.php");
 
 exit();
 
