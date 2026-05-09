@@ -10,7 +10,6 @@ if(!isset($_SESSION['student_id']))
 }
 
 ?>
-
 <h1>
 
 Welcome

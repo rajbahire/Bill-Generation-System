@@ -28,22 +28,7 @@ if(!isset($_SESSION['hod_id']))
 
 <body>
 
-<div class="header">
-
-    <div class="logo-section">
-
-        <img src="../assets/image.png">
-
-        <span>
-
-            Government College of Engineering,
-            Aurangabad
-
-        </span>
-
-    </div>
-
-</div>
+<?php include "../includes/header.php"; ?>
 
 <div class="auth-container">
 

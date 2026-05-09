@@ -21,19 +21,7 @@ session_start();
 <body>
 
 <!-- Header -->
-<div class="header">
-
-    <div class="logo-section">
-
-        <img src="../assets/image.png" alt="College Logo">
-
-        <span>
-            Government College of Engineering, Aurangabad
-        </span>
-
-    </div>
-
-</div>
+<?php include "../includes/header.php"; ?> 
 
 <!-- Back Button -->
 <div class="back" onclick="goBack()">
@@ -199,6 +187,7 @@ session_start();
 </div>
 
 <script src="../js/script.js"></script>
+
 <script>
 
 function goBack()

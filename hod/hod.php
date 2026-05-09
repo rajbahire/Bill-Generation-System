@@ -22,20 +22,7 @@ session_start();
 
 <body>
 
-<div class="header">
-
-    <div class="logo-section">
-
-        <img src="../assets/image.png"
-             alt="College Logo">
-
-        <span>
-            Government College of Engineering, Aurangabad
-        </span>
-
-    </div>
-
-</div>
+<?php include "../includes/header.php"; ?>
 
 <div class="back"
      onclick="goBack()">
